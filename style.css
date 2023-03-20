@@ -1,0 +1,635 @@
+ul li a {
+    text-transform: uppercase;
+}
+
+body {
+    margin: 0;
+
+    font-family: Nunito Sans, Arial;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.list2container {
+    margin-top: 150px;
+    display: flex;
+}
+
+.list2containerLeft {
+    max-width: 487px;
+    margin: 0;
+    margin-right: 10vh;
+}
+
+
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.navList2 {
+    margin-top: 0px;
+}
+
+.header {
+    background-color: black;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    height: 83px;
+    align-items: center;
+}
+
+.logo {
+    color: #E3B873;
+}
+
+.button {
+    text-transform: uppercase;
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    outline: 0;
+    border: 0;
+    padding: 13px 33px;
+    color: white;
+    font-style: italic;
+}
+
+.hero-btn-secondary {
+    background: rgba(0, 0, 0, .0);
+    box-shadow: none;
+    border: 1px;
+    border-style: solid;
+}
+
+.header-navigation {
+    list-style: none;
+    display: flex;
+}
+
+.header-navigation__item {
+    margin-right: 47px;
+}
+
+.header-navigation__item a {
+    text-decoration: none;
+    color: white;
+}
+
+.list2-navigation {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0;
+    padding-top: 5vh;
+    margin-left: 508px;
+}
+
+.list2-navigation__item {
+    margin-top: 0;
+}
+
+.list2-navigation__item a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero {
+    background-image: url(images/hero.jpg);
+    padding-top: 194px;
+}
+
+.block {
+    background-size: cover;
+    height: 707px;
+
+    position: relative;
+
+}
+
+.list2 {
+    margin-top: 0px;
+    background-color: #131313;
+    height: 1100px;
+}
+
+.list2left__Text__Item {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 5vh;
+    width: 500px;
+    height: 200px;
+    align-content: space-between;
+}
+
+.hero-overlay {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.hero-container {
+    position: relative;
+    z-index: 1;
+    flex-basis: 50%;
+}
+
+.title {
+    margin: 0;
+    font-family: 'Yeseva One', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.titleYellow {
+    margin: 0;
+    font-family: 'Yeseva One', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.imagesARROW {
+    display: flex;
+    justify-content: space-around;
+    max-width: 30vh;
+}
+
+.imagesARROW::before {
+    background-color: #FFFFFF;
+}
+
+.telNumber {
+    font-size: 0.8em;
+    color: #E3B873;
+}
+
+.subtitle {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16x;
+    color: wheat;
+}
+
+.whiteSubtitle {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: white;
+}
+
+.BlackSubtitle {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: black;
+}
+
+.masterPlay {
+    margin-top: 300px;
+    position: relative;
+    /* устанавливаем позиционирование контейнера как относительное */
+    width: 100%;
+    /* задаем ширину контейнера, чтобы изображения были выровнены по центру */
+    height: 100%;
+    /* задаем высоту контейнера, чтобы изображения были выровнены по центру */
+}
+
+.masterPlay img {
+    position: absolute;
+    /* устанавливаем позиционирование каждого изображения как абсолютное */
+    top: 50%;
+    /* задаем отступ сверху */
+    left: 50%;
+    /* задаем отступ слева */
+    transform: translate(-50%, -50%);
+    /* используем transform для выравнивания по центру */
+}
+
+.list3 {
+    margin-top: -300px;
+
+}
+
+.list3headText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list3headText img {
+    margin-right: 5px;
+}
+
+.YellowHr {
+    margin-top: 590px;
+    border: none;
+    height: 3px;
+    background-color: #E3B873;
+    width: 10vh;
+}
+
+.BlackSubtitleDiv {
+    margin: 0 auto;
+    max-width: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formList3 {
+    margin: 0 auto;
+    max-width: 80vh;
+    height: 110vh;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+button[type="submit"] {
+    text-transform: uppercase;
+    background-color: #E3B873;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+}
+
+.personal-data {
+    text-align: center;
+    margin-top: -20px;
+    display: flex;
+    align-self: flex-start;
+    margin-left: 40px;
+}
+
+input[type="text"] {
+
+    color: #333;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.list4 {
+    margin-top: 290px;
+    height: 10em;
+}
+
+
+.black__title {
+    margin: 0;
+    font-family: 'Yeseva One', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #131313;
+}
+
+.block-With-Image-List4 {
+    background-image: url(images/graywall.svg);
+    background-size: 392px 421px;
+    height: 638px;
+    width: 410px;
+    left: 96px;
+    top: 2735px;
+    background-repeat: no-repeat;
+}
+
+.block-With-Image-List4_2 {
+    background-image: url(images/window.svg);
+    background-size: 392px 421px;
+    height: 638px;
+    width: 410px;
+    left: 96px;
+    top: 2735px;
+    background-repeat: no-repeat;
+}
+
+.block-With-Image-List4_3 {
+    background-image: url(images/loft.svg);
+    background-size: 392px 421px;
+    height: 638px;
+    width: 410px;
+    left: 96px;
+    top: 2735px;
+    background-repeat: no-repeat;
+}
+
+.lis4all__block__content {
+    margin-top: 18px;
+    display: flex;
+    flex-direction: row;
+}
+
+.text_miniblock_list4 {
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 31px;
+    height: 286px;
+    width: 330px;
+    left: 134px;
+    top: 3034.99951171875px;
+    border-radius: 0px;
+    margin-top: 294px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+}
+
+.text_miniblock_list4 ul {
+    color: #959595;
+    font-weight: 400;
+}
+
+.text_miniblock_list4 ul li {
+    margin-bottom: 10px;
+}
+
+.text_miniblock_list4 h3 {
+    margin-left: 25px;
+    font-family: 'Yeseva One';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.priceList4 {
+    margin-top: 20px;
+    background-color: #E3B873;
+    background: #E3B873;
+    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+    height: 54px;
+    width: 228px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list4_bottom_own {
+    background-image: url(images/idk.svg);
+    margin-top: 230px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.list4_benefit_block {
+    font-family: Nunito Sans, Arial;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 150px;
+    height: 539px;
+    width: 527px;
+}
+
+.list4_benefit_block div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.list4_bottomForm {
+    margin-left: 130px;
+    display: flex;
+    flex-direction: column;
+    background: #131313;
+    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+    height: 539px;
+    width: 527px;
+    color: white;
+}
+
+.input_own_div input {
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    /* Замените #000 на желаемый цвет линии */
+    outline: none;
+    /* Убираем рамку фокуса */
+    background-color: #131313;
+    color: white;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 400px;
+
+}
+
+.input_own_div {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.input_own_div label {
+    display: block;
+}
+
+
+
+.circles {
+    box-shadow: 0px 5px 15px rgba(255, 0, 64, 0.05);
+    border-radius: 30px;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.number-overlay {
+    font-family: 'Yeseva One';
+    position: absolute;
+    top: 35px;
+    right: 59px;
+    width: 20px;
+    height: 20px;
+    background-color: #E3B873;
+    color: #ffffff;
+    border-radius: 50%;
+    font-size: 19px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.buttonNoItalic {
+    text-transform: uppercase;
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    outline: 0;
+    border: 0;
+    padding: 13px 33px;
+    color: white;
+    display: flex;
+    justify-self: end;
+    align-self: self-end;
+    margin-right: 50px;
+}
+
+.elephant_text {
+    margin-top: 50px;
+    margin-right: 85px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    justify-self: center;
+}
+
+.sub_elephant_list4 {
+    margin-top: -10px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+
+    color: #E3B873;
+
+    text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
+}
+
+.list4_1 {
+    margin-top: 890px;
+    /*уостыль, задает недостающий отступ */
+
+}
+
+.list5 {
+    height: 989px;
+    background-image: url(images/list5columnpic/backgr.svg);
+    background-repeat: no-repeat;
+    margin-top: 100px;
+
+}
+
+.list5::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.Nav_Title_list5 {
+    position: relative;
+    z-index: 2;
+    color: white;
+    margin-top: 5%;
+}
+
+.Nav_Title_list5 h2 {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    text-transform: uppercase;
+
+    color: #E3B873;
+}
+
+.pictures_column_own {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    margin-top: -70px;
+}
+
+.column1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;
+
+}
+
+.column2 {
+    display: flex;
+
+    flex-direction: column;
+    margin-top: -41px;
+}
+
+.grid_image {
+    margin-top: 39px;
+}
+
+.container_list5 {
+    max-width: 1250px;
+    margin: 0 auto;
+
+}
+
+.container_list5 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.list5_navigation {
+    list-style-type: none;
+    margin-top: 20%;
+}
+
+.list5_navigation li {
+    margin-bottom: 30px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+
+    color: #FFFFFF;
+
+}
+
+.list5_navigation li:active {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    color: #E3B873;
+
+}
+
+.list6{
+    
+}
