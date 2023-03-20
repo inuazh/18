@@ -688,7 +688,7 @@ input[type="text"] {
 
 }
 
-.list6_3block_owner img{
+.list6_3block_owner img {
     border-radius: 50%;
     margin-right: 25px;
 }
@@ -701,19 +701,19 @@ input[type="text"] {
     line-height: 23px;
 }
 
-.customers_block{
+.customers_block {
     background-color: aliceblue;
     margin-right: 35px;
 }
 
-.image_CustomerName{
+.image_CustomerName {
     display: flex;
     flex-direction: row;
     align-items: center;
 
 }
 
-.list7{
+.list7 {
     background-image: url(images/image7list.2.svg);
     position: relative;
     display: flex;
@@ -728,7 +728,8 @@ input[type="text"] {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.9); /* Здесь можно задать любой цвет и уровень прозрачности */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Здесь можно задать любой цвет и уровень прозрачности */
 }
 
 .list7_Form {
@@ -738,44 +739,41 @@ input[type="text"] {
     background: #131313;
     box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
     height: 445px;
-    width: 883px;   
+    width: 883px;
     color: white;
     position: absolute;
     margin-top: -225px;
 }
 
-.personalData_list7{
+.personalData_list7 {
     margin-left: 300px;
 }
 
-.input_own_div7 input{
+.input_own_div7 input {
     width: 520px;
 }
 
-.inputHeadRow{
+.inputHeadRow {
     display: flex;
     flex-direction: row;
 
 }
 
-.inputHeadRow input{
+.inputHeadRow input {
     width: 235px;
 }
 
-.inputHeadRow label{
 
-}
-
-.inputBlock label{
+.inputBlock label {
     display: block;
 }
 
-.inputBlock{
+.inputBlock {
     margin-right: 25px;
     margin-left: 25px;
 }
 
-.LastButtonList7{
+.LastButtonList7 {
     display: flex;
     justify-self: center;
     display: block;
@@ -783,40 +781,40 @@ input[type="text"] {
     margin-right: auto;
 }
 
-.phar_list7{
+.phar_list7 {
     margin-top: 300px;
     font-family: 'Yeseva One';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 28px;
-text-align: center;
-text-transform: uppercase;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
 
-color: #E3B873;
+    color: #E3B873;
     position: absolute;
 }
 
-.cart{
+.cart {
     position: absolute;
-left: 17.71%;
-right: 18.06%;
-top: 91.14%;
-bottom: 2.66%;
-display: flex;
-justify-self: center;
-justify-content: center;
-z-index: 4;
-margin-top: -510px;
+    left: 17.71%;
+    right: 18.06%;
+    top: 91.14%;
+    bottom: 2.66%;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    z-index: 4;
+    margin-top: -510px;
 }
 
-.instaPic{
+.instaPic {
     position: absolute;
-width: 71px;
-height: 28px;
-display: flex;
-justify-self: center;
-margin-top: 380px;
+    width: 71px;
+    height: 28px;
+    display: flex;
+    justify-self: center;
+    margin-top: 380px;
 }
 
 .block7 {
@@ -827,39 +825,82 @@ margin-top: 380px;
 
 }
 
-footer{
+footer {
     background-color: #131313;
 }
 
 @media (max-width: 768px) {
     .header-navigation {
-      display: none;
+        display: none;
     }
-  
+
     .button {
-      display: none;
+        display: none;
     }
-  
+
     .logo {
-      margin-right: auto;
+        margin-right: auto;
     }
-  
+
     .hamburger {
-      display: block;
-      width: 30px;
-      height: 30px;
-      position: absolute;
-      top: 20px;
-      right: 20px;
-      cursor: pointer;
+        display: block;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        cursor: pointer;
     }
-  
+
     .hamburger span {
-      display: block;
-      width: 100%;
-      height: 4px;
-      background-color: white;
-      margin-bottom: 6px;
-      transition: transform 0.3s ease-in-out;
+        display: block;
+        width: 100%;
+        height: 4px;
+        background-color: white;
+        margin-bottom: 6px;
+        transition: transform 0.3s ease-in-out;
     }
-  }
+
+
+    .header-navigation.show {
+        display: block;
+    }
+
+    .hamburger span.rotate-top {
+        transform: rotate(45deg) translate(8px, 8px);
+    }
+
+    .hamburger span.hide-middle {
+        opacity: 0;
+    }
+
+    .hamburger span.rotate-bottom {
+        transform: rotate(-45deg) translate(8px, -8px);
+    }
+
+    .lis4all__block__content{
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .list6{
+        display: none;
+    }
+
+    .imagesARROW{
+        display: none;
+    }
+
+    .list2left__Text__Item{
+        display: inline;
+    }
+
+    .list3headText{
+        display: none;
+    }
+
+    .title{
+        font-size: large;
+    }
+    
+}
