@@ -830,3 +830,36 @@ margin-top: 380px;
 footer{
     background-color: #131313;
 }
+
+@media (max-width: 768px) {
+    .header-navigation {
+      display: none;
+    }
+  
+    .button {
+      display: none;
+    }
+  
+    .logo {
+      margin-right: auto;
+    }
+  
+    .hamburger {
+      display: block;
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      cursor: pointer;
+    }
+  
+    .hamburger span {
+      display: block;
+      width: 100%;
+      height: 4px;
+      background-color: white;
+      margin-bottom: 6px;
+      transition: transform 0.3s ease-in-out;
+    }
+  }
